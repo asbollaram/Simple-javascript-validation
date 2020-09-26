@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Simple Javascript Validation</title>
+<link rel="stylesheet" href="./css/fourm.css" />
+<script type="text/javascript"  src="./js/script.js"></script>
+
+</head>
+<body>
+<div class="main_container">
+	<h2> Simple Javascript validation</h2>
+	  <form name="sbFourm" method="post" action="welcome.html" onsubmit="return validBasic()" class="fourm_details">
+		<div class="leftSide">Your Name</div><div class="rightSide"><input type="text" name="yourName" placeholder="Name" pattern="[a-zA-Z ]{2,}" /></div>
+		<div class="leftSide">Password</div><div class="rightSide"><input type="password" name="pass1" placeholder="Password" /></div>
+		<div class="leftSide">Confirm Password</div><div class="rightSide"><input type="password" name="pass2" placeholder="Confirm Password" /></div>
+		
+		<div class="button_submit">
+			<input type="submit" value="Submit" />
+		</div>
+		
+	</form>
+</div>
+
+</body>
+</html>
